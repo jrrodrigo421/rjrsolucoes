@@ -9,8 +9,6 @@
 
 **Landing page profissional da RJR Soluções - Software House especializada em desenvolvimento de software, análise de dados e automação de processos.**
 
-[🌐 Demo](#) • [📧 Contato](mailto:contato@rjrsolucoes.com.br) • [📱 WhatsApp](https://wa.me/5511999999999)
-
 </div>
 
 ---
@@ -108,35 +106,6 @@ src/
 
 ---
 
-## 🎨 Seções da Landing Page
-
-### 🏠 **Hero Section**
-- Apresentação impactante da empresa
-- Call-to-action para consultoria
-- Estatísticas de projetos e experiência
-- Indicadores visuais de status online
-
-### 💼 **Serviços**
-- **Desenvolvimento de Software** - Aplicações web e mobile
-- **Análise de Dados** - Dashboards e insights
-- **Automação de Processos** - Eficiência operacional
-- **Segurança de Dados** - Proteção e compliance
-- **Inteligência de Negócios** - Decisões baseadas em dados
-- **Consultoria Tecnológica** - Estratégias e ROI
-
-### 🏢 **Sobre a Empresa**
-- Pilares: Segurança e Transparência
-- Missão e valores
-- Estatísticas de performance
-- Características da equipe
-
-### 📞 **Contato**
-- Formulário de contato integrado
-- Informações de contato direto
-- Benefícios de escolher a RJR Soluções
-
----
-
 ## 🌍 Internacionalização
 
 O projeto suporta três idiomas:
@@ -149,58 +118,6 @@ As traduções estão organizadas no arquivo `src/translations/index.ts` com est
 
 ---
 
-## 🎨 Design System
-
-### Cores Principais
-- **Vermelho Principal**: `#dc2626` (red-600)
-- **Vermelho Secundário**: `#ef4444` (red-500)  
-- **Vermelho Claro**: `#f87171` (red-400)
-- **Cinza Escuro**: `#1a1a1a`
-- **Cinza Médio**: `#374151`
-
-### Tipografia
-- **Fonte**: System fonts (sans-serif)
-- **Títulos**: Font weight bold (700)
-- **Texto**: Font weight normal (400)
-
-### Componentes
-- **Botões**: Gradientes com efeitos hover
-- **Cards**: Sombras suaves e bordas arredondadas
-- **Formulários**: Focus states com cores da marca
-
----
-
-## 📱 Responsividade
-
-O design é totalmente responsivo com breakpoints:
-
-- **Mobile**: < 640px
-- **Tablet**: 640px - 1024px  
-- **Desktop**: > 1024px
-
-Utiliza classes Tailwind CSS para adaptação automática em diferentes tamanhos de tela.
-
----
-
-## 🔧 Configurações
-
-### Vite Config
-- Plugin React configurado
-- Otimização para Lucide React
-- Build otimizado para produção
-
-### Tailwind Config
-- Configuração básica
-- PostCSS integrado
-- Autoprefixer ativo
-
-### TypeScript Config
-- Configuração para React
-- Strict mode habilitado
-- Paths configurados
-
----
-
 ## 📈 Performance
 
 - ⚡ **Vite** para build ultrarrápido
@@ -208,19 +125,6 @@ Utiliza classes Tailwind CSS para adaptação automática em diferentes tamanhos
 - 📦 **Code Splitting** por rotas
 - 🖼️ **Lazy Loading** de imagens
 - 🔄 **Caching** otimizado
-
----
-
-## 🤝 Contribuição
-
-Este é um projeto proprietário da **RJR Soluções**. Para sugestões ou melhorias:
-
-1. Abra uma issue descrevendo a sugestão
-2. Aguarde aprovação da equipe
-3. Faça um fork do projeto
-4. Crie uma branch para sua feature
-5. Commit suas mudanças
-6. Abra um Pull Request
 
 ---
 
@@ -236,13 +140,10 @@ Este projeto é proprietário da **RJR Soluções**. Todos os direitos reservado
 
 **RJR Soluções - Transformando ideias em soluções digitais**
 
-📧 **Email**: contato@rjrsolucoes.com.br  
-📱 **WhatsApp**: +55 (11) 99999-9999  
-🌐 **Website**: [rjrsolucoes.com.br](https://rjrsolucoes.com.br)  
-📍 **Localização**: São Paulo, Brasil
+📧 **Email**: rjr89000@gmail.com  
 
 ---
 
-*Desenvolvido com ❤️ pela equipe RJR Soluções*
+*Desenvolvido por RJR Soluções*
 
 </div>
