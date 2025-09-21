@@ -24,7 +24,7 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img
-              src="/public/logo.png"
+              src="/logo.png"
               alt="RJR Soluções Logo"
               className="w-10 h-10"
             />
