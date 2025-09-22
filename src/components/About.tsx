@@ -59,16 +59,16 @@ export default function About({ translations }: AboutProps) {
           <div className="space-y-6">
             <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
               <div className="grid grid-cols-2 gap-8 text-center">
-                <div>
+                {/* <div>
                   <div className="text-4xl font-bold text-[#dc2626] mb-2">150+</div>
                   <div className="text-gray-300">{translations.about.stats.projects}</div>
                 </div>
                 <div>
                   <div className="text-4xl font-bold text-[#f87171] mb-2">98%</div>
                   <div className="text-gray-300">{translations.about.stats.satisfaction}</div>
-                </div>
+                </div> */}
                 <div>
-                  <div className="text-4xl font-bold text-[#374151] mb-2">5+</div>
+                  <div className="text-4xl font-bold text-[#f87171] mb-2">2+</div>
                   <div className="text-gray-300">{translations.about.stats.years}</div>
                 </div>
                 <div>

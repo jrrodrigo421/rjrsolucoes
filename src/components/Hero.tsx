@@ -65,14 +65,14 @@ export default function Hero({ translations, onContactClick }: HeroProps) {
                   <span className="text-white/80">{translations.hero.status}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <div className="text-3xl font-bold text-[#f87171] mb-1">150+</div>
                     <div className="text-sm text-white/70">{translations.hero.projects}</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-[#dc2626] mb-1">5+</div>
+                  </div> */}
+                  {/* <div className="text-center">
+                    <div className="text-3xl font-bold text-[#dc2626] mb-1">2+</div>
                     <div className="text-sm text-white/70">{translations.hero.experience}</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

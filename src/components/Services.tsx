@@ -74,11 +74,11 @@ export default function Services({ translations }: ServicesProps) {
                 <p className="text-gray-600 leading-relaxed">
                   {translations.services[service.key].description}
                 </p>
-                <div className="mt-6 pt-4 border-t border-gray-100">
+                {/* <div className="mt-6 pt-4 border-t border-gray-100">
                   <span className="text-sm font-medium text-[#dc2626] group-hover:text-[#ef4444] transition-colors duration-300">
                     {translations.services.learnMore} →
                   </span>
-                </div>
+                </div> */}
               </div>
             );
           })}

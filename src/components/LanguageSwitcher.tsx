@@ -7,9 +7,9 @@ interface LanguageSwitcherProps {
 }
 
 const languages = [
-  { code: 'pt', name: 'PT-BR', flag: '🇧🇷' },
-  { code: 'en', name: 'EN', flag: '🇺🇸' },
-  { code: 'es', name: 'ES', flag: '🇪🇸' },
+  { code: 'pt', name: '', flag: 'Português-br' },
+  { code: 'en', name: '', flag: 'Inglês' },
+  { code: 'es', name: '', flag: 'Espanhol' },
 ];
 
 export default function LanguageSwitcher({ currentLanguage, onLanguageChange }: LanguageSwitcherProps) {
@@ -28,7 +28,7 @@ export default function LanguageSwitcher({ currentLanguage, onLanguageChange }: 
       </button>
 
       {isOpen && (
-        <div className="absolute top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50">
+        <div className="absolute w-[130%] top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50">
           {languages.map((language) => (
             <button
               key={language.code}
@@ -36,9 +36,8 @@ export default function LanguageSwitcher({ currentLanguage, onLanguageChange }: 
                 onLanguageChange(language.code);
                 setIsOpen(false);
               }}
-              className={`w-full px-4 py-2 text-left hover:bg-gray-50 transition-colors duration-200 flex items-center gap-2 ${
-                currentLanguage === language.code ? 'bg-gray-100' : ''
-              }`}
+              className={`w-full px-4 py-2 text-left hover:bg-gray-50 transition-colors duration-200 flex items-center gap-2 ${currentLanguage === language.code ? 'bg-gray-100' : ''
+                }`}
             >
               <span>{language.flag}</span>
               <span className="text-gray-800 text-sm">{language.name}</span>

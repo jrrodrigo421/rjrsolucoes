@@ -1,7 +1,7 @@
 export const translations = {
   pt: {
     hero: {
-      title: "Transformamos Ideias em Soluções Digitais",
+      title: "Transformamos Idéias em Soluções Digitais",
       subtitle: "Especialistas em desenvolvimento de software, análise de dados e automação de processos para impulsionar seu negócio.",
       security: "Segurança",
       innovation: "Inovação",

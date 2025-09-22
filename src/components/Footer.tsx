@@ -20,16 +20,16 @@ export default function Footer({ translations }: FooterProps) {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-gray-400">
                 <Mail size={16} />
-                <span className="text-sm">contato@rjrsolucoes.com.br</span>
+                <span className="text-sm">rjr89000@gmail.com</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              {/* <div className="flex items-center gap-2 text-gray-400">
                 <Phone size={16} />
                 <span className="text-sm">+55 (11) 99999-9999</span>
-              </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              </div> */}
+              {/* <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={16} />
                 <span className="text-sm">São Paulo, Brasil</span>
-              </div>
+              </div> */}
             </div>
           </div>
 

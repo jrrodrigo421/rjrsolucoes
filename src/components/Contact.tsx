@@ -15,9 +15,12 @@ export default function Contact({ translations }: ContactProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aqui você pode integrar com seu sistema de contato
-    console.log('Form submitted:', formData);
-    alert(translations.contact.form.success);
+
+    const subject = `Contato de ${formData.name} - ${formData.company || 'Sem empresa'}`;
+    const body = `Nome: ${formData.name}\nEmail: ${formData.email}\nEmpresa: ${formData.company || 'Não informado'}\n\nMensagem:\n${formData.message}`;
+
+    const mailtoLink = `mailto:rjr89000@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(mailtoLink, '_self');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -44,13 +47,13 @@ export default function Contact({ translations }: ContactProps) {
             <div className="bg-gradient-to-br from-[#dc2626] to-[#ef4444] p-8 rounded-2xl text-white">
               <h3 className="text-2xl font-bold mb-6">{translations.contact.info.title}</h3>
               <div className="space-y-4">
-                <div className="flex items-center gap-4">
+                {/* <div className="flex items-center gap-4">
                   <Phone size={24} />
                   <span>+55 (11) 99999-9999</span>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-4">
                   <Mail size={24} />
-                  <span>contato@rjrsolucoes.com.br</span>
+                  <span>rjr89000@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MessageCircle size={24} />
