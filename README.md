@@ -41,9 +41,6 @@ A **RJR Soluções** é uma software house focada em transformar ideias em solu�
 - **PostCSS** - Processamento de CSS
 - **Autoprefixer** - Prefixos CSS automáticos
 
-### Integrações
-- **Supabase** - Backend como serviço (preparado para futuras funcionalidades)
-
 ---
 
 ## 🚀 Como Executar
